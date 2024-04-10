@@ -17,7 +17,7 @@ namespace ActionGit.Controllers
         {
             return View();
         }
-
+        //Iam acking mwuahahahahaahhahahaha
         public IActionResult Privacy()
         {
             return View();
