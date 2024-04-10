@@ -1,12 +1,20 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ActionGit.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ActionGitTests.Controllers
+namespace ActionGit.Controllers.Tests
 {
-    internal class HomeControllerTests
+    [TestClass()]
+    public class HomeControllerTests
     {
+        [TestMethod()]
+        public void IndexTest()
+        {
+            Assert.Fail();
+        }
     }
 }
