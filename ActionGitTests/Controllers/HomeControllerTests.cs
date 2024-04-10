@@ -14,7 +14,7 @@ namespace ActionGit.Controllers.Tests
         [TestMethod()]
         public void IndexTest()
         {
-            
+            Assert.AreEqual(1, 1);
         }
     }
 }
