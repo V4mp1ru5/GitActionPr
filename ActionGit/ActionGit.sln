@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionGit", "ActionGit.csproj", "{41A109A4-B50C-4D19-B446-EE7C5BEFB127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionGit", "ActionGit.csproj", "{41A109A4-B50C-4D19-B446-EE7C5BEFB127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionGitTests", "..\ActionGitTests\ActionGitTests.csproj", "{ACB7C3C9-946D-468C-AB37-1A322889A49C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{41A109A4-B50C-4D19-B446-EE7C5BEFB127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41A109A4-B50C-4D19-B446-EE7C5BEFB127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41A109A4-B50C-4D19-B446-EE7C5BEFB127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB7C3C9-946D-468C-AB37-1A322889A49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB7C3C9-946D-468C-AB37-1A322889A49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB7C3C9-946D-468C-AB37-1A322889A49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB7C3C9-946D-468C-AB37-1A322889A49C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
